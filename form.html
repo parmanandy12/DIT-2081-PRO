@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset {
+            width: 300px;
+            margin: auto;
+            padding: 20px;
+            border: 2px solid #000;
+        }
+        legend {
+            font-weight: bold;
+        }
+        form {
+            text-align: left;
+        }
+    </style>
+</head>
+<body cellpadding="10" cellspacing="10" border="2">
+    <fieldset>
+        <legend align="center"><u>Student form</u></legend>
+        <p align="center>
+            <form action="formdata.html" method="get">
+                Name: <input type="text" name="name" size="30" maxlength="30"><br><br>
+                Roll No: <input type="text" name="rollno" size="30" maxlength="30"><br><br>
+                Year: <input type="text" name="year" size="30" maxlength="30"><br><br>
+        Faculty: <input type="text" name="faculty" size="30" maxlength="30"><br><br>
+        Email: <input type="text" name="email" size="30" maxlength="30"><br><br>
+        Gender:<input type="radio" name="gender" value="male"> Male
+               <input type="radio" name="gender" value="female"> Female <br><br>
+               Hobbies:
+               <select>
+                <option value="reading">Football</option>
+                <option value="traveling">Traveling</option>
+                <option value="sports">Sports</option>
+                <option value="music">Music</option>
+                </select><br><br>
+               Comment:<br><textarea name="comment" rows="5" cols="30"></textarea><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Exit">
+            </form>
+        </p>
+    </fieldset>
+</body>
+</html>

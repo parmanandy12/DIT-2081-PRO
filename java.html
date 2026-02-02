@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Smallest Number</title>
+</head>
+<body>
+    <script>
+        // Input three numbers
+        var num1=5;
+        var num2=3;
+        var num3=8;
+        // find the smallest number
+        var smallest;
+
+        if (num1 < num2 && num1 < num3) {
+            smallest = num1;
+        } else if (num2 < num1 && num2 < num3) {
+            smallest = num2;
+        } else {
+            smallest = num3;
+        }
+        //display the result 
+        document.write("The smallest number is: " + smallest);
+    </script>
+</body>
+</html>
